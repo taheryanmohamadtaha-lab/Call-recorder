@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- outer ring -->
+    <path
+        android:fillColor="#FF1E2A47"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+    <!-- white disc -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,54m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0" />
+    <!-- microphone capsule -->
+    <path
+        android:fillColor="#FF121C30"
+        android:pathData="M50,42a4,4 0,0 1,8 0l0,10a4,4 0,0 1,-8 0z" />
+    <!-- microphone stand -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF121C30"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M46,52a8,8 0,0 0,16 0M54,60l0,5M50,65l8,0" />
+</vector>
