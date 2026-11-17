@@ -94,6 +94,9 @@ class RecordingService : Service() {
                 file = file,
                 sampleRate = s.sampleRate,
                 requestedChannels = s.channels,
+                sources = if (type == RecordingType.CALL_SPEAKER) WavRecorder.callSources()
+                else listOf(android.media.MediaRecorder.AudioSource.MIC),
+                onSilence = { if (type == RecordingType.CALL_SPEAKER) RecorderState.notify(getString(R.string.call_silent_warning)) },
                 onLevel = { RecorderState.level(it) },
                 onProgress = { ms, bytes -> onProgress(ms, bytes) },
             )

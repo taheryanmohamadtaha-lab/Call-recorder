@@ -34,7 +34,7 @@
     <string name="calls_support_title">Direct call-audio recording</string>
     <string name="calls_unsupported">Not available: since Android 10, third-party apps cannot capture the other party\'s voice or both sides of a phone call through official APIs. This app never bypasses that restriction.</string>
     <string name="calls_supported_note">Your Android version is older than 10, but the official API for capturing call audio (a system-only permission) is still not granted to normal apps. Direct call recording is not available.</string>
-    <string name="calls_alternative">Alternative: speaker-mode recording. Put the call on speaker and record with the microphone. Only do this with the knowledge and consent of everyone on the call and according to your local law.</string>
+    <string name="calls_alternative">Alternative: speaker-mode recording. Put the call on speaker and record with the microphone. Only do this with the knowledge and consent of everyone on the call and according to your local law. Tip: start the recording first, then place or answer the call, turn on speaker and raise the volume. Some phones block the microphone during calls; the app tries every allowed microphone source and warns you if the result is silent.</string>
     <string name="calls_consent">I confirm that all parties know and consent to this recording</string>
     <string name="calls_start_speaker">Record in speaker mode</string>
     <string name="calls_log">Call log (times only)</string>
@@ -99,4 +99,5 @@
     <string name="speed_fmt">%1$sx</string>
     <string name="khz_fmt">%1$s kHz</string>
     <string name="remaining">-%1$s</string>
+    <string name="call_silent_warning">No sound is arriving from the microphone. Your phone or Android version is blocking microphone capture during calls, so this recording is silent. This cannot be bypassed by apps.</string>
 </resources>
